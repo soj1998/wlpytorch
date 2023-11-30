@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 from torch.utils.data import TensorDataset
 import numpy as np
 import matplotlib
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 matplotlib.rcParams['font.sans-serif'] = ['SimHei']
 matplotlib.rcParams['axes.unicode_minus'] = False
