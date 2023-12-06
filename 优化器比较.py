@@ -73,4 +73,7 @@ def train():
     plt.ylim((0, 0.3))
     plt.show()
 
-train()
+
+if __name__ == "__main__":
+    train()
+
