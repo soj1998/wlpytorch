@@ -55,7 +55,7 @@ def train():
     losses = [[], [], [], [], []]
     for epoch in range(epoches):
         for step, (batch_x, batch_y) in enumerate(loader):
-            for net, optimizer, loss_list in zip(nets,optimizers,losses):
+            for net, optimizer, loss_list in zip(nets, optimizers, losses):
                 pred_y = net(batch_x)
                 loss = loss_function(pred_y, batch_y)
                 optimizer.zero_grad()
